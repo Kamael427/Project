@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<servlet>
+		<servlet-name>AfficherCours</servlet-name>
+		<servlet-class>com.octest.servlets.AfficherCours</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AfficherCours</servlet-name>
+		<url-pattern>/afficherCours</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ModifierCours</servlet-name>
+		<servlet-class>com.octest.servlets.ModifierCours</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModifierCours</servlet-name>
+		<url-pattern>/modifierCours</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RechercherCours</servlet-name>
+		<servlet-class>com.octest.servlets.RechercherCours</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RechercherCours</servlet-name>
+		<url-pattern>/rechercherCours</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AjouterCours</servlet-name>
+		<servlet-class>com.octest.servlets.AjouterCours</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AjouterCours</servlet-name>
+		<url-pattern>/ajouterCours</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SupprimerCours</servlet-name>
+		<servlet-class>com.octest.servlets.SupprimerCours</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SupprimerCours</servlet-name>
+		<url-pattern>/supprimerCours</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cours</servlet-name>
+		<servlet-class>com.octest.servlets.Cours</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cours</servlet-name>
+		<url-pattern>/Cours</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EDT</servlet-name>
+		<servlet-class>com.octest.servlets.EDT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EDT</servlet-name>
+		<url-pattern>/EDT</url-pattern>
+	</servlet-mapping>
+	
+	
+
+
+</web-app>
+
+
